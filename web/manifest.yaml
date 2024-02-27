@@ -115,7 +115,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: jakakrishna928/web:v1
+        image: jayakrishna928/web:v1
         imagePullPolicy: Always
         volumeMounts:
         - name: nginx-conf
