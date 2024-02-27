@@ -42,7 +42,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: jayakrishna928/mysql:v1
+        image: joindevops/mysql:v1
         imagePullPolicy: Always
         envFrom:
         - configMapRef:
